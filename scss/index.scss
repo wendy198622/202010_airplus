@@ -1,0 +1,460 @@
+@import 'setting';
+@import 'header';
+@import 'footer';
+
+.main_proBox{
+    .proBox{
+        width: 100%;
+        max-width: 1920px;
+        height: 1080px;
+        .photo{
+            width: 100%;
+            min-width: 1000px;
+            height: 1080px;
+            position: absolute;
+            z-index: -1;
+        }
+        .proIntro{
+            padding-top: 125px;
+            .introTitle{
+                font-size: 30px;
+                line-height: 80px;
+                letter-spacing: 3.33px;
+            }
+            .introSubtitle{
+                font-size: 50px;
+                letter-spacing: 10px;
+            }
+            .introIcon{
+                width: 300px;
+                margin-left: 60px;
+                letter-spacing: 15px;
+                .txt{ margin-top: 45px;}
+                .icon__grey{
+                    width: 190px;
+                    height: 190px;
+                    background: url(../img/btns/btn_index_pump_circle.png) center center no-repeat;
+                    background-size: cover;
+                    margin: 5px auto 15px;
+                    line-height: 60px;
+                    &::before{
+                        content: "";
+                        width: 0;
+                        height: 100%;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    span{
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .introSpec{
+                margin-top: 20px;
+                ul{
+                    overflow: hidden;
+                    li{
+                        width: 150px;
+                        line-height: 50px;
+                        border-radius: 56.3px;
+                        background-color: rgba(18, 38, 170, .6);
+                        letter-spacing: 5px;
+                        font-size: 24px;
+                        float: left;
+                        margin-right: 25px;
+                    }
+                }
+            }
+            .introTxt{
+                line-height: 100px;
+                &.acvb{ margin-top: 492px; letter-spacing: 25px;}
+                &.vsb{ margin-top: 600px;letter-spacing: 10px;}
+
+            }
+            .introCheck{
+
+                .item{ 
+                    width: 340px;
+                    display: inline-block;
+                    letter-spacing: 5px;
+                    &:first-child{ margin-right: 100px;}
+                    .check{
+                        width: 60px;
+                        height: 60px;
+                        position: relative;
+                        display: inline-block;
+                        padding-top: 20px;
+
+                        &:before{
+                            content: "";
+                            width: 36px;
+                            height: 36px;
+                            display: block;
+                            border: 1px solid #afafaf;
+                            position: absolute;
+                            z-index: 0;
+                            top: 32px;
+                            left: 12px;
+                        }
+                        img{ position: relative; z-index: 2;}
+                    }
+                }
+            }
+        }
+    }
+}
+.sceneBox{
+    padding-top: 90px;
+    .sceneTitle{ letter-spacing: 2px; line-height: 60px;}
+    .sceneDesc{ letter-spacing: 22px; line-height: 80px;}
+    .sceneIntro{
+        padding: 50px 0;
+        overflow: hidden;
+        .left{ 
+            width: 100%;
+            max-width: 1920px;
+            min-width: 1000px;
+            float: right;
+            height: 350px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+            background-image: linear-gradient(125deg, #ffffff 27%, #e1e1e1 71%);
+            overflow: hidden;
+            margin-right: calc((100% - 1000px)/2);
+            .txtBox{
+                width: 200px;
+                float: right;
+                margin: 0 0 0 40px;
+            }
+            .imgBox{
+                width: 610px;
+                float: right;
+                margin: 0 110px 0 40px;
+            }
+        }
+        .right{ 
+            width: 100%;
+            max-width: 1920px;
+            min-width: 1000px;
+            float: left;
+            height: 350px;
+            margin-top: 25px;
+            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+            background-image: linear-gradient(125deg, #e1e1e1 30%, #ffffff 73%);
+            overflow: hidden;
+            margin-left: calc((100% - 1000px)/2);
+            .txtBox{
+                width: 240px;
+                float: left;
+                margin-left: 40px;
+            }
+            .imgBox{
+                width: 610px;
+                float: left;
+                margin: 0 0 0 110px;
+            }
+        }
+
+        .title{
+            height: 70px;
+            font-size: 40px;
+            line-height: 70px;
+            letter-spacing: 8px;
+            margin-top: 38px;
+        }
+        p{
+            height: 200px;
+            line-height: 2;
+            letter-spacing: 2px;
+        }
+    }
+    .sceneSlogan{
+        margin: 30px 0 80px;
+        .logo{ 
+            width: 300px;
+            margin: 0 auto;
+        }
+        p{ 
+            font-size: 40px; 
+            line-height: 60px;
+            letter-spacing: 4px;
+            margin-top: 12px;
+        }
+    }
+}
+.useBox{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1000px;
+    height: 900px;
+    background-image: linear-gradient(to top, #d2d2d2, #f0f0f0 -33%);
+    padding: 74px 0 80px;
+    overflow: hidden;
+    .useTitle{
+        letter-spacing: 5px;
+    }
+    .useList{
+        min-width: 1670px;
+        .listBox{
+            width: 1670px;
+            overflow: hidden;
+            .list{
+                margin-top: 30px;
+                overflow: hidden;
+                .checkBox{
+                    width: 100px;
+                    height: 180px;
+                    margin: 40px 30px 90px;
+                    text-align: center;
+                    .check{
+                        width: 60px;
+                        height: 60px;
+                        position: relative;
+                        display: inline-block;
+                        padding-top: 20px;
+
+                        &:before{
+                            content: "";
+                            width: 30px;
+                            height: 30px;
+                            display: block;
+                            border: 2px solid #fff;
+                            position: absolute;
+                            z-index: 0;
+                            top: 35px;
+                            left: 15px;
+                        }
+                        img{ position: relative; z-index: 2;}
+                    }
+                    p{
+                        font-size: 36px;
+                        line-height: 50px;
+                        letter-spacing: 2px;
+                        margin-top: 15px;
+                    }
+                }
+                .imgBox{
+                    width: 490px;
+                    height: 276px;
+                    margin: 12px 0;
+                }
+            }
+            &:nth-child(odd){
+                float: left;
+                margin-left: calc(100% - 1670px);
+                .list{
+                    &:nth-child(odd){
+                        width: 700px;
+                        height: 300px;
+                        background-image: linear-gradient(61deg, #c8c8c8, #7d7d7d 82%);
+                        float: left;
+                        .checkBox{ float: right;}
+                        .imgBox{ float: right;}
+                    }
+                    &:nth-child(even){
+                        width: 900px;
+                        height: 300px;
+                        float: left;
+                        margin-left: 70px;
+                        background-image: linear-gradient(304deg, #c8c8c8, #7d7d7d 41%);
+                        .checkBox{ float: left;}
+                        .imgBox{ float: left;}
+                    }
+                }
+            }
+            &:nth-child(even){
+                float: right;
+                margin-right: calc(250 / 1920 * 100%);
+                .list{
+                    &:nth-child(odd){
+                        width: 900px;
+                        height: 300px;
+                        background-image: linear-gradient(56deg, #c8c8c8, #7d7d7d 59%);
+                        float: left;
+                        .checkBox{ float: right;}
+                        .imgBox{ float: right;}
+                    }
+                    &:nth-child(even){
+                        width: 700px;
+                        height: 300px;
+                        background-image: linear-gradient(56deg, #7d7d7d 37%, #c8c8c8 100%);
+                        margin-left: 70px;
+                        float: left;
+                        .checkBox{ float: left;}
+                        .imgBox{ float: left;}
+                    }
+                }
+            }
+        }
+    }
+}
+.interestBox{
+    height: 700px;
+    background-image: linear-gradient(to bottom, #ffffff 57%, #f5f5f5);
+    .container{
+        height: 700px;
+        .banner{
+            width: 1000px;
+            position: relative;
+            padding-top: 40px;
+            .logo{
+                width: 250px;
+                height: 40px;
+                position: absolute;
+                bottom: 68px;
+                right: 0;
+            }
+            .txtBox{
+                position: absolute;
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: 5px;
+                b{ 
+                    display: block;
+                    font-size: 36px;
+                    line-height: 80px;
+                    letter-spacing: 8px;
+                }
+            }
+            &.banner1{
+                .txtBox{
+                    width: 440px;
+                    height: 220px;
+                    background-color: rgba(120, 140, 255, 0.3);
+                    border-radius: 50%;
+                    top: 110px;
+                    left: 80px;
+                    span{
+                        display: block;
+                        color: #1226aa;
+                        padding-top: 50px;
+                        margin-left: -20px;
+                        b{ 
+                            color: #1226aa;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                .imgBox{
+                    width: 700px;
+                    height: 592px;
+                    margin: 0 auto;
+                }
+            }
+            &.banner2{
+                .txtBox{
+                    width: 300px;
+                    height: 300px;
+                    background-color: rgba(130, 60, 150, 0.3);
+                    border-radius: 50%;
+                    top: 50px;
+                    right: 140px;
+                    span{
+                        display: block;
+                        color: #823c96;
+                        padding-top: 60px;
+                        margin-left: -30px;
+                        b{ 
+                            color: #823c96;
+                            margin-left: 30px;
+                        }
+                    }
+                }
+                .imgBox{
+                    width: 564px;
+                    height: 620px;
+                    margin: 0 0 0 60px;
+                }
+            }
+            &.banner3{
+                .logo{
+                    width: 250px;
+                    height: 40px;
+                    position: absolute;
+                    bottom: unset;
+                    top: 102px;
+                    right: 0;
+                }
+                .txtBox{
+                    width: 300px;
+                    height: 400px;
+                    background-color: rgba(25, 205, 255, 0.3);
+                    border-radius: 50%;
+                    bottom: 35px;
+                    right: 110px;
+                    span{
+                        width: 300px;
+                        display: block;
+                        padding-top: 210px;
+                        margin-left: -54px;
+                        b{ 
+                        }
+                    }
+                }
+                .imgBox{
+                    width: 640px;
+                    height: 605px;
+                    margin: 0 0 0 40px;
+                }
+            }
+        }
+    }
+}
+.recommonBox{
+    padding: 67px 0 75px 0;
+    .container{
+        width: 1013px;
+    }
+    .recommonTitle{
+        font-size: 40px;
+        line-height: 80px;
+        letter-spacing: 3.5px;
+    }
+    ul{
+        margin-top: 5px;
+        padding: 9px 5px 6px;
+        overflow: hidden;
+        li{
+            width: 232px;
+            float: left;
+            margin-right: 25px;
+            &:nth-child(4n){ margin-right: 0;}
+            .imgBox{
+                border-radius: 20px;
+                overflow: hidden;
+            }
+            .txtBox{
+                font-size: 20px;
+                line-height: 1.6;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+
+.slider_interest{
+    .slick-dots{
+        bottom: 0;
+        li{
+            width: 10px;
+            height: 10px;
+            margin: 10px;
+            button{
+                width: 10px;
+                height: 10px;
+                background-color: #c8c8c8;
+                border-radius: 50%;
+                &:before{
+                    display: none;
+                }
+            }
+            &.slick-active{
+                button{
+                    background-color: #00b2e3;
+                }
+            }
+        }
+    }
+}
