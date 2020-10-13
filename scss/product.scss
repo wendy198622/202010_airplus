@@ -16,9 +16,10 @@
             .introIcon_small{
                 width: 100px;
                 height: 100px;
-                position: absolute;
-                top: 130px;
-                right: -120px;
+                position: fixed;
+                top: 200px;
+                right: 50%;
+                transform: translateX(600%);
                 .icon_blue{
                     width: 100px;
                     height: 100px;
@@ -39,7 +40,7 @@
                         vertical-align: middle;
                         font-size: 20px;
                         line-height: 30px;
-                        color: #001078;
+                        a{ color: #001078;}
                     }
                 }
             }
@@ -114,9 +115,10 @@
             .introIcon_small{
                 width: 100px;
                 height: 100px;
-                position: absolute;
-                top: 130px;
-                right: -120px;
+                position: fixed;
+                top: 200px;
+                right: 50%;
+                transform: translateX(600%);
                 .icon_blue{
                     width: 100px;
                     height: 100px;
@@ -137,7 +139,7 @@
                         vertical-align: middle;
                         font-size: 20px;
                         line-height: 30px;
-                        color: #001078;
+                        a{ color: #001078;}
                     }
                 }
             }
@@ -299,9 +301,10 @@
             .introIcon_small{
                 width: 100px;
                 height: 100px;
-                position: absolute;
-                top: 130px;
-                right: -120px;
+                position: fixed;
+                top: 200px;
+                right: 50%;
+                transform: translateX(600%);
                 .icon_blue{
                     width: 100px;
                     height: 100px;
@@ -322,7 +325,7 @@
                         vertical-align: middle;
                         font-size: 20px;
                         line-height: 30px;
-                        color: #001078;
+                        a{ color: #001078;}
                     }
                 }
             }
@@ -456,9 +459,10 @@
             .introIcon_small{
                 width: 100px;
                 height: 100px;
-                position: absolute;
-                top: 130px;
-                right: -120px;
+                position: fixed;
+                top: 200px;
+                right: 50%;
+                transform: translateX(600%);
                 .icon_blue{
                     width: 100px;
                     height: 100px;
@@ -479,7 +483,7 @@
                         vertical-align: middle;
                         font-size: 20px;
                         line-height: 30px;
-                        color: #001078;
+                        a{ color: #001078;}
                     }
                 }
             }
@@ -907,8 +911,11 @@
                     li{
                         font-size: 24px;
                         line-height: 2.08;
-                        .title{ width: 400px; text-decoration: underline; padding-bottom: 10px;}
+                        .title{ width: 400px; padding-bottom: 10px;}
                         .content{ width: 50px; margin-left: 10px;}
+                        &:hover .title a{
+                            text-decoration: underline;
+                        }
                     }
                 }
             }

@@ -5,8 +5,8 @@
   }
 
 // setting
-*{ box-sizing: border-box; color: #000000; font-family: 'Noto Sans TC', sans-serif, 'HelveticaNeue';}
-a{ color: #130000; text-decoration: none; display: block;}
+*{ box-sizing: border-box; color: #000000; font-family: 'HelveticaNeue-Medium', 'Noto Sans TC', sans-serif ;}
+a{ color: #130000; text-decoration: none; display: block; transition: all .3s;}
 a.active{ color: #00b2e3;}
 img{ width: 100%; display: block; margin: 0 auto;}
 .clearfix{ 

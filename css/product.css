@@ -228,13 +228,15 @@ footer nav > ul > li .item li a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #000000;
-  font-family: 'Noto Sans TC', sans-serif, 'HelveticaNeue';
+  font-family: 'HelveticaNeue-Medium', 'Noto Sans TC', sans-serif;
 }
 
 a {
   color: #130000;
   text-decoration: none;
   display: block;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 a.active {
@@ -1176,9 +1178,11 @@ footer nav > ul > li .item li a {
 .main_proBox.pump .proBox .proIntro .introIcon_small {
   width: 100px;
   height: 100px;
-  position: absolute;
-  top: 130px;
-  right: -120px;
+  position: fixed;
+  top: 200px;
+  right: 50%;
+  -webkit-transform: translateX(600%);
+          transform: translateX(600%);
 }
 
 .main_proBox.pump .proBox .proIntro .introIcon_small .icon_blue {
@@ -1205,6 +1209,9 @@ footer nav > ul > li .item li a {
   vertical-align: middle;
   font-size: 20px;
   line-height: 30px;
+}
+
+.main_proBox.pump .proBox .proIntro .introIcon_small .icon_blue span a {
   color: #001078;
 }
 
@@ -1290,9 +1297,11 @@ footer nav > ul > li .item li a {
 .main_proBox.acvb .proBox .proIntro .introIcon_small {
   width: 100px;
   height: 100px;
-  position: absolute;
-  top: 130px;
-  right: -120px;
+  position: fixed;
+  top: 200px;
+  right: 50%;
+  -webkit-transform: translateX(600%);
+          transform: translateX(600%);
 }
 
 .main_proBox.acvb .proBox .proIntro .introIcon_small .icon_blue {
@@ -1319,6 +1328,9 @@ footer nav > ul > li .item li a {
   vertical-align: middle;
   font-size: 20px;
   line-height: 30px;
+}
+
+.main_proBox.acvb .proBox .proIntro .introIcon_small .icon_blue span a {
   color: #001078;
 }
 
@@ -1506,9 +1518,11 @@ footer nav > ul > li .item li a {
 .main_proBox.vsb .proBox .proIntro .introIcon_small {
   width: 100px;
   height: 100px;
-  position: absolute;
-  top: 130px;
-  right: -120px;
+  position: fixed;
+  top: 200px;
+  right: 50%;
+  -webkit-transform: translateX(600%);
+          transform: translateX(600%);
 }
 
 .main_proBox.vsb .proBox .proIntro .introIcon_small .icon_blue {
@@ -1535,6 +1549,9 @@ footer nav > ul > li .item li a {
   vertical-align: middle;
   font-size: 20px;
   line-height: 30px;
+}
+
+.main_proBox.vsb .proBox .proIntro .introIcon_small .icon_blue span a {
   color: #001078;
 }
 
@@ -1693,9 +1710,11 @@ footer nav > ul > li .item li a {
 .main_proBox.giftbox .proBox .proIntro .introIcon_small {
   width: 100px;
   height: 100px;
-  position: absolute;
-  top: 130px;
-  right: -120px;
+  position: fixed;
+  top: 200px;
+  right: 50%;
+  -webkit-transform: translateX(600%);
+          transform: translateX(600%);
 }
 
 .main_proBox.giftbox .proBox .proIntro .introIcon_small .icon_blue {
@@ -1722,6 +1741,9 @@ footer nav > ul > li .item li a {
   vertical-align: middle;
   font-size: 20px;
   line-height: 30px;
+}
+
+.main_proBox.giftbox .proBox .proIntro .introIcon_small .icon_blue span a {
   color: #001078;
 }
 
@@ -2226,12 +2248,15 @@ footer nav > ul > li .item li a {
 
 .buyBox .container .txtBox.giftbox .detail li .title {
   width: 400px;
-  text-decoration: underline;
   padding-bottom: 10px;
 }
 
 .buyBox .container .txtBox.giftbox .detail li .content {
   width: 50px;
   margin-left: 10px;
+}
+
+.buyBox .container .txtBox.giftbox .detail li:hover .title a {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=product.css.map */

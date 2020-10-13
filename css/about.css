@@ -228,13 +228,15 @@ footer nav > ul > li .item li a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #000000;
-  font-family: 'Noto Sans TC', sans-serif, 'HelveticaNeue';
+  font-family: 'HelveticaNeue-Medium', 'Noto Sans TC', sans-serif;
 }
 
 a {
   color: #130000;
   text-decoration: none;
   display: block;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 a.active {
@@ -1330,9 +1332,9 @@ footer nav > ul > li .item li a {
 }
 
 .futureBox .txtBox p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 1.67;
+  line-height: 1.9;
   letter-spacing: 2px;
   color: #323232;
 }
@@ -1358,17 +1360,39 @@ footer nav > ul > li .item li a {
 }
 
 .formBox .title {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 80px;
-  letter-spacing: 3.67px;
+  letter-spacing: 1.88px;
   text-align: center;
   color: #000000;
   margin-bottom: 15px;
 }
 
+.formBox .form {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 .formBox .form .formGroup {
-  width: 100%;
   margin-top: 20px;
+}
+
+.formBox .form .formGroup:nth-child(1) {
+  width: 300px;
+  margin-right: 20px;
+  float: left;
+}
+
+.formBox .form .formGroup:nth-child(2) {
+  width: 480px;
+  float: left;
+}
+
+.formBox .form .formGroup:nth-child(3) {
+  width: 100%;
+  margin-top: 25px;
+  float: left;
 }
 
 .formBox .form .formGroup input {
@@ -1378,9 +1402,12 @@ footer nav > ul > li .item li a {
   width: 100%;
   height: 60px;
   border-radius: 10px;
-  border: solid 2px #323232;
-  line-height: 60px;
-  font-size: 24px;
+  -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #c8c8c8;
+  line-height: 40px;
+  font-size: 16px;
+  letter-spacing: 1.33;
   text-align: center;
 }
 
@@ -1403,14 +1430,25 @@ footer nav > ul > li .item li a {
   width: 100%;
   height: 200px;
   border-radius: 10px;
-  border: solid 2px #323232;
-  line-height: 60px;
-  font-size: 24px;
+  -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #c8c8c8;
+  line-height: 40px;
+  font-size: 16px;
+  letter-spacing: 1.33;
   text-align: center;
 }
 
 .formBox .form .formGroup textarea:focus {
   outline: 0;
+}
+
+.formBox .form .formGroup textarea::-moz-placeholder {
+  color: #969696;
+}
+
+.formBox .form .formGroup textarea::-webkit-input-placeholder {
+  color: #969696;
 }
 
 .formBox .company {
