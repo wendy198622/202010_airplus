@@ -466,11 +466,12 @@ footer nav > ul > li .item li a {
 .main_proBox .proBox .proIntro .introTxt.acvb {
   margin-top: 492px;
   letter-spacing: 25px;
+  opacity: 0.5;
 }
 
 .main_proBox .proBox .proIntro .introTxt.vsb {
   margin-top: 600px;
-  letter-spacing: 10px;
+  letter-spacing: 2.31px;
 }
 
 .main_proBox .proBox .proIntro .introCheck .item {

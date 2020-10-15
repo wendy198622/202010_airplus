@@ -175,9 +175,8 @@
             .introTech{
                 width: 1100px;
                 height: 200px;
-                opacity: 0.8;
                 border-radius: 100px;
-                background-color: #4b4b4b;
+                background-color: rgba(0,0,0,.4);
                 margin-left: -50px;
                 margin-top: 310px;
                 padding: 30px 140px;
@@ -272,6 +271,15 @@
                     font-size: 48px;
                     line-height: 1.46;
                     letter-spacing: 5px;
+                    font-weight: 200;
+                    span{
+                        color: #00b2e3;
+                        font-size: 48px;
+                        line-height: 1.46;
+                        letter-spacing: 5px;
+                        font-weight: 300;
+                        font-family: 'Noto Sans TC', sans-serif ;
+                    }
                 }
                 &.font__royalblue{ 
                     color: #1226aa;
@@ -282,7 +290,7 @@
                 }
             }
             .introSubtitle{
-                font-size: 60px;
+                font-size: 55px;
             }
             .introSpec{
                 ul {
@@ -731,6 +739,8 @@
                 }
                 h4{
                     letter-spacing: 3.6px;
+                    font-family: 'Noto Sans TC', sans-serif ;
+                    font-weight: normal;
                 }
                 p{
                     letter-spacing: 2px;
@@ -833,8 +843,8 @@
                 margin-left: -90px;
             }
             &.acvb{
-                width: 300px;
-                margin: 40px 50px 0 40px;
+                width: 310px;
+                margin: 40px 40px 0;
             }
             &.vsb{
                 width: 460px;
