@@ -602,7 +602,8 @@
 }
 .specBox{
     width: 100%;
-    max-width: 1920px;
+    // max-width: 1920px;
+    margin: 0 auto;
     height: 950px;
     background-color: #4b4b4b;
     padding: 6px 0 134px 0;
@@ -642,11 +643,12 @@
 }
 .introBox{
     width: 100%;
-    max-width: 1920px;
+    // max-width: 1920px;
+    margin: 0 auto;
     min-width: 1000px;
     height: 2200px;
-    background: url(../img/photos/airplus_pump_004.jpg) center top no-repeat;
-    background-size: cover;
+    background: url(../img/photos/airplus_pump_004.jpg) center top no-repeat #4c78a9;
+    background-size: 1920px auto;
     .container{
         height: 100%;
         > h4{
@@ -751,7 +753,8 @@
 }
 .bestBox{
     width: 100%;
-    max-width: 1920px;
+    // max-width: 1920px;
+    margin: 0 auto;
     min-width: 1000px;
     height: 700px;
     background-image: linear-gradient(to bottom, #ffffff 46%, #e1e1e1);
@@ -776,7 +779,8 @@
 }
 .descBox{
     width: 100%;
-    max-width: 1920px;
+    // max-width: 1920px;
+    margin: 0 auto;
     min-width: 1000px;
     // height: 1450px;
     padding-bottom: 120px;
@@ -829,7 +833,8 @@
 }
 .buyBox{
     width: 100%;
-    max-width: 1920px;
+    // max-width: 1920px;
+    margin: 0 auto;
     min-width: 1000px;
     background-color: #f5f5f5;
     padding: 0 0 60px;

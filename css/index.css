@@ -161,7 +161,6 @@ h4 {
 
 header {
   width: 100%;
-  max-width: 1920px;
   height: 70px;
   margin: 0 auto;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
@@ -252,7 +251,6 @@ header nav ul .sub-menu-parent:focus .sub-menu, header nav ul .sub-menu-parent:f
 
 footer {
   width: 100%;
-  max-width: 1920px;
   height: 300px;
   -webkit-box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.2);
@@ -530,7 +528,6 @@ footer nav > ul > li .item li a {
 
 .sceneBox .sceneIntro .left {
   width: 100%;
-  max-width: 1920px;
   min-width: 1000px;
   float: right;
   height: 350px;
@@ -556,7 +553,6 @@ footer nav > ul > li .item li a {
 
 .sceneBox .sceneIntro .right {
   width: 100%;
-  max-width: 1920px;
   min-width: 1000px;
   float: left;
   height: 350px;
@@ -612,8 +608,8 @@ footer nav > ul > li .item li a {
 
 .useBox {
   width: 100%;
-  max-width: 1920px;
   min-width: 1000px;
+  margin: 0 auto;
   height: 900px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#d2d2d2), color-stop(-33%, #f0f0f0));
   background-image: linear-gradient(to top, #d2d2d2, #f0f0f0 -33%);
@@ -623,14 +619,18 @@ footer nav > ul > li .item li a {
 
 .useBox .useTitle {
   letter-spacing: 5px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .useBox .useList {
-  min-width: 1670px;
+  width: 1670px;
+  margin: 0 auto;
 }
 
 .useBox .useList .listBox {
   width: 1670px;
+  margin: 0 auto;
   overflow: hidden;
 }
 

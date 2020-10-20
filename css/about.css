@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 header {
   width: 100%;
-  max-width: 1920px;
   height: 70px;
   margin: 0 auto;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
@@ -92,7 +91,6 @@ header nav ul .sub-menu-parent:focus .sub-menu, header nav ul .sub-menu-parent:f
 
 footer {
   width: 100%;
-  max-width: 1920px;
   height: 300px;
   -webkit-box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.2);
@@ -381,7 +379,6 @@ h4 {
 
 header {
   width: 100%;
-  max-width: 1920px;
   height: 70px;
   margin: 0 auto;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
@@ -472,7 +469,6 @@ header nav ul .sub-menu-parent:focus .sub-menu, header nav ul .sub-menu-parent:f
 
 footer {
   width: 100%;
-  max-width: 1920px;
   height: 300px;
   -webkit-box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.2);
@@ -750,7 +746,6 @@ footer nav > ul > li .item li a {
 
 .sceneBox .sceneIntro .left {
   width: 100%;
-  max-width: 1920px;
   min-width: 1000px;
   float: right;
   height: 350px;
@@ -776,7 +771,6 @@ footer nav > ul > li .item li a {
 
 .sceneBox .sceneIntro .right {
   width: 100%;
-  max-width: 1920px;
   min-width: 1000px;
   float: left;
   height: 350px;
@@ -832,8 +826,8 @@ footer nav > ul > li .item li a {
 
 .useBox {
   width: 100%;
-  max-width: 1920px;
   min-width: 1000px;
+  margin: 0 auto;
   height: 900px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#d2d2d2), color-stop(-33%, #f0f0f0));
   background-image: linear-gradient(to top, #d2d2d2, #f0f0f0 -33%);
@@ -843,14 +837,18 @@ footer nav > ul > li .item li a {
 
 .useBox .useTitle {
   letter-spacing: 5px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .useBox .useList {
-  min-width: 1670px;
+  width: 1670px;
+  margin: 0 auto;
 }
 
 .useBox .useList .listBox {
   width: 1670px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -1167,7 +1165,7 @@ footer nav > ul > li .item li a {
 
 .brandBox {
   width: 100%;
-  max-width: 1920px;
+  margin: 0 auto;
   min-width: 1000px;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), to(#f5f5f5));
   background-image: linear-gradient(to bottom, #ffffff 50%, #f5f5f5);
@@ -1244,7 +1242,7 @@ footer nav > ul > li .item li a {
 
 .awardBox {
   width: 100%;
-  max-width: 1920px;
+  margin: 0 auto;
   min-width: 1000px;
   height: 600px;
   background-color: #e1e1e1;
@@ -1293,7 +1291,7 @@ footer nav > ul > li .item li a {
 
 .futureBox {
   width: 100%;
-  max-width: 1920px;
+  margin: 0 auto;
   min-width: 1000px;
   height: 990px;
   background-image: url(../img/photos/future_prospects.png), -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), to(#f5f5f5));
@@ -1354,7 +1352,7 @@ footer nav > ul > li .item li a {
 
 .formBox {
   width: 100%;
-  max-width: 1920px;
+  margin: 0 auto;
   min-width: 1000px;
   background: #ffffff;
   padding: 60px 0 75px;

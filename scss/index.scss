@@ -113,7 +113,7 @@
         overflow: hidden;
         .left{ 
             width: 100%;
-            max-width: 1920px;
+            // max-width: 1920px;
             min-width: 1000px;
             float: right;
             height: 350px;
@@ -135,7 +135,7 @@
         }
         .right{ 
             width: 100%;
-            max-width: 1920px;
+            // max-width: 1920px;
             min-width: 1000px;
             float: left;
             height: 350px;
@@ -185,19 +185,24 @@
 }
 .useBox{
     width: 100%;
-    max-width: 1920px;
+    // max-width: 1920px;
     min-width: 1000px;
+    margin: 0 auto;
     height: 900px;
     background-image: linear-gradient(to top, #d2d2d2, #f0f0f0 -33%);
     padding: 74px 0 80px;
     overflow: hidden;
     .useTitle{
         letter-spacing: 5px;
+        max-width: 1920px;
+        margin: 0 auto;
     }
     .useList{
-        min-width: 1670px;
+        width: 1670px;
+        margin: 0 auto;
         .listBox{
             width: 1670px;
+            margin: 0 auto;
             overflow: hidden;
             .list{
                 margin-top: 30px;
