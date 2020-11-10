@@ -28,6 +28,9 @@
 	<script type="text/javascript" src="js/slick.js"></script>
 	<script type="text/javascript" src="js/imgLiquid-min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/vue.js"></script>
+	<script type="text/javascript" src="js/smtp.js"></script>
+	<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 
 
 </head>
@@ -201,7 +204,6 @@
 			},
 			methods: {
 				showPopup: function (tag) {
-					$('.slider_popup').slick('slickGoTo', 0)
 					this.popupIndex = tag
 				},
 				sendEmail: function () {
@@ -215,13 +217,14 @@
 						"留言:" + self.message + "<br>";
 
 					Email.send({
-						SecureToken: "e72b0d9a-0075-4eff-8b5e-74df58c177e4", //勿更動
-						To: 'wendy1986228@gmail.com', //收件者填這
+						SecureToken: "00ccae85-efa5-44a9-b85d-7aaa977a488e", //勿更動
+						To: 'gn01658704@gmail.com', //收件者填這
 						From: "tt836427@gmail.com", //寄件者email，此為虛擬，勿更動
 						Subject: "我要留言發問", //信件主旨
 						Body: content
 					}).then(
 						message => {
+							console.log(message)
 							if (message == "OK") {
 								self.msg = "您已成功送出表單，將有專人與您聯絡。"
 								setTimeout(function () {
