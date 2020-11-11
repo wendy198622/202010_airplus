@@ -220,7 +220,7 @@
 						SecureToken: "00ccae85-efa5-44a9-b85d-7aaa977a488e", //勿更動
 						To: 'webservice@airplusgo.com', //收件者填這
 						From: "tt836427@gmail.com", //寄件者email，此為虛擬，勿更動
-						Subject: "我要留言發問", //信件主旨
+						Subject: "" + self.name + " / " + self.email + " / " + "我要留言發問", //信件主旨, //信件主旨
 						Body: content
 					}).then(
 						message => {
